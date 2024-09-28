@@ -17,10 +17,3 @@ function showElement(id){
     const donation = document.getElementById("history-section").classList.add("hidden")
     const show = document.getElementById(id).classList.remove("hidden")  
 }
-
-function updateDateTime() {
-    var now = new Date();
-    var date = now.toLocaleDateString();
-    var time = now.toLocaleTimeString();
-    document.getElementById('datetime').innerHTML = date + ' ' + time;
-}
